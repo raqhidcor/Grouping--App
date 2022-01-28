@@ -4,7 +4,7 @@
 
 ---
 
-Grouping is a Human Resources Management web application in which employees and HR team can have acces to some interesting features to improve the company productivy and daily basis organization:
+Grouping is a Human Resources Management web application in which employees and HR team can have access to some interesting features to improve the company productivity and daily basis organization:
 
 * Clock-in: Daily clock in/out and work time table reports.  
 * Time-Off: Manage time-off and absences quickly and easily (holidays, illness or maternity/paternity). 

@@ -17,7 +17,7 @@ const TimeOffTable = ({ events, isLoading }) => {
     :
  
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650,bgcolor: '#D8DDEE' }} aria-label="simple table">
+      <Table sx={{ minWidth: 350, maxWidth:"74vw", bgcolor: '#f5f5f5' }} aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell align="center"><b>Status</b></TableCell>

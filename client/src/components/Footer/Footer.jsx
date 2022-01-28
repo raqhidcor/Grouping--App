@@ -9,9 +9,9 @@ const Footer = (props) => {
     const style = ()=> {
       let style = {}
       if (user) {
-        style ={width:"80vw"}
+        style ={width:"82vw", maxWidth: "100vw"}
       }  else {
-        style ={width:"98vw"}
+        style ={width:"99vw"}
       }
       return style
     }
@@ -19,8 +19,8 @@ const Footer = (props) => {
     const team = [
         {
             name: "José L. Valdés",
-            linkedin: "", 
-            github: ""
+            linkedin: "https://www.linkedin.com/in/jose-luis-valdes-frontend/", 
+            github: "https://github.com/ValdesDev"
         }, 
         {
             name: "Tatiana Prada",
@@ -36,7 +36,7 @@ const Footer = (props) => {
 
 return (
     <footer style={style()}>
-    <div>
+    <div className="firstDiv">
         <p> © Copyright. All rights deserved.        Created and develoved by:</p>
     </div>
     <div className="links">
@@ -44,7 +44,7 @@ return (
           return (
             <div key={index + Date.now()} className="each">
                 <p>{each.name}</p>
-                <p><a href={each.github}><GitHubIcon></GitHubIcon></a><a href={each.linkedin}><LinkedInIcon></LinkedInIcon></a></p>
+                <p><a href={each.github} target="blank"><GitHubIcon></GitHubIcon></a><a href={each.linkedin} target="blank"><LinkedInIcon></LinkedInIcon></a></p>
             </div>
             );
         })}

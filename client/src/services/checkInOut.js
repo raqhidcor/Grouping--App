@@ -8,10 +8,10 @@ const checkInService = axios.create({
 });
 
 /**
- * Crea y envia el fichaje a Back
+ * Creat and send the check in to the backend 
  *
  * @param {{startDate: Date}} clockIn
- * @returns {{status: boolean,data: Object,errorMessage:string}} response donde data es el objeto que acabamos de crear
+ * @returns {{status: boolean,data: Object,errorMessage:string}} response where data os the object we just create 
  */
 export async function registerStartHour(clockIn) {
   try {
@@ -25,9 +25,9 @@ export async function registerStartHour(clockIn) {
 }
 
 /**
- * Devuelve un fichaje que no está cerrado
+ * Return a check in still opens
  *
- * @returns {{status: boolean,data: Object,errorMessage:string}} response donde data es un Object con el fichaje abierto
+ * @returns {{status: boolean,data: Object,errorMessage:string}} response where data is an object with the check in open status 
  */
 
 export async function getMyCheckIn() {
@@ -46,9 +46,9 @@ export async function getMyCheckIn() {
 }
 
 /**
- * Devuelve todos los fichajes realizados
+ * Return all the check-in done 
  *
- * @returns {{status: boolean,data: Array,errorMessage:string}} response donde data es un Array con todos los fichajes del user
+ * @returns {{status: boolean,data: Array,errorMessage:string}} response where data is an array with all the user's clock in 
  */
 
 export async function getAllMyClocks() {
@@ -63,11 +63,11 @@ export async function getAllMyClocks() {
 }
 
 /**
- * Actualiza el fichaje abierto en Back
+ * Update the open check-in in the backend 
  *
  * @param {string} id
  * @param {{endDate:Date}} clockOut
- * @returns {{status: boolean,data: Object,errorMessage:string}} response donde data es el objeto que acabamos de actualizar
+ * @returns {{status: boolean,data: Object,errorMessage:string}} response where data is the object we just updated 
  */
 export async function registerEndHour(id, clockOut) {
   try {

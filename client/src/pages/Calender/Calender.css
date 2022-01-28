@@ -2,3 +2,11 @@
     padding-left: 1em;
     margin-right: 1em;
 }
+
+@media (max-width:600px) {
+    .Calender {
+        margin-left: 10%;
+        max-width: 89vw;
+    }
+
+}

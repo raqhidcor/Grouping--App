@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import DatePicker from "../../components/DatePicker/DatePicker";
-import "./TimeOffForm.css";
 import {
   Button,
   Grid,
@@ -29,7 +28,6 @@ const TimeOffForm = ({ onSubmitSuccess }) => {
     if (status === true) {
       setSummary("")
       setDates([null, null])
-      // setType("") //ToDo --> porque? 
       setStatus(true)
       onSubmitSuccess()
     }

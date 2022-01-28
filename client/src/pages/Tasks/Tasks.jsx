@@ -3,8 +3,7 @@ import { getMyTasks } from "../../services/tasks";
 import "./Tasks.css";
 import TaskForm from "../../components/TaskForm/TaskForm";
 import TaskList from "../../components/TaskList/TaskList";
-import { Grid, Button } from "@mui/material";
-import { deleteTask } from "../../services/tasks";
+import { Grid } from "@mui/material";
 
 
 const Tasks = (props) => {
@@ -29,13 +28,14 @@ const Tasks = (props) => {
   return (
     <div className="Tasks">
       <h1>Tasks</h1>
+      <h3>Create a list with your daily tasks</h3>
       <Grid container spacing={4}>
         <Grid item xs={12} md={8}>
           <TaskForm onSubmitSuccess={() => fetchTasks()} user={user} />
         </Grid>
         <Grid item xs={12} md={8}>
           <h3>Tasks List</h3>
-          <TaskList tasks={tasks} isLoading={isLoading}/>
+          <TaskList tasks={tasks} isLoading={isLoading} fetchTasks={fetchTasks} user={user}/>
         </Grid>
       </Grid>
     </div>

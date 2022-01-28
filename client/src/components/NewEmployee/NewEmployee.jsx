@@ -9,7 +9,7 @@ import {
   DialogTitle,
   MenuItem,
 } from "@mui/material";
-import { addEmployee } from "./../../services/company";
+import { addEmployee } from "../../services/company";
 
 export default function NewEmployee({ user, company, onSubmitSuccess }) {
   const [name, setName] = useState("");

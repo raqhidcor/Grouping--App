@@ -9,8 +9,8 @@ const calendarRequestService = axios.create({
 });
 
 /**
- *  Devuelve todas las peticiones de ausencias hechas por el usuario
- * @returns {{status: boolean,data: Array,errorMessage:string}} response donde data es un Array de peticiones del usuario
+ *  Return all the requests made by the user 
+ * @returns {{status: boolean,data: Array,errorMessage:string}} response where data is an array with all the user's requests
  */
 
 export async function getMyRequests() {
@@ -25,9 +25,9 @@ export async function getMyRequests() {
 }
 /**
  * 
- *  Devuelve todas las peticiones de ausencias hechas por todos los usuarios de la compañia
+ *  Return all the requests made by all the users of the company 
  * @param {string} companyId 
- * @returns {{status: boolean,data: Array,errorMessage:string}} response donde data es un Array de peticiones del usuario
+ * @returns {{status: boolean,data: Array,errorMessage:string}} response where data is an array of all the requests 
  */
 export async function getAllRequests(companyId) {
   try {

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./TaskForm.css";
 import { Button, Grid, TextField, Alert } from "@mui/material";
 import { createTask } from "../../services/tasks";
 
@@ -55,8 +54,9 @@ const TaskForm = ({ user, onSubmitSuccess }) => {
           color = "secondary"
           type="submit"
           onClick={onSubmit}
+          sx={{marginTop: 3}}
         >
-          Add
+          Add Task
         </Button>
         {status && <Alert severity="success">Task created!</Alert>}
         {status === false && (

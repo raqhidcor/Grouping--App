@@ -53,7 +53,11 @@ const Calender = () => {
 
   return (
     <div className="Calender">
-      <h1>Calender </h1>
+    <div>
+    <h1>Calender </h1>
+    <p>Read, approve, deny and delete all your time-off requests.</p>  
+    </div>
+
       <Grid container spacing={4}>
         <Grid item xs={12} md={8}>
           <CalendarApp events={events} onEventClick={onEventClick} />

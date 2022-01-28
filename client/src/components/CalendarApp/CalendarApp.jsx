@@ -33,6 +33,7 @@ const CalendarApp = (props) => {
       initialView="dayGridMonth"
       events={parsedEvents}
       eventClick={props.onEventClick}
+      height={"60vh"}
     />
   );
 };

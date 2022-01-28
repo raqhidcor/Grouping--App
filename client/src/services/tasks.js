@@ -32,13 +32,13 @@ export async function getMyTasks(id){
   }
 }
 
-export function deleteTask(task) {
+export async function deleteTask(userId, taskId) {
   return tasksService
-  .post("/delete",{task}, {
-    headers: { 
-      Authorization: USER_HELPERS.getUserToken() 
-    }
+  .patch(`/tasks/delete/${userId}/${taskId}`, {
+      headers: {
+        Authorization: USER_HELPERS.getUserToken()
+      }
   })
-  .then(successStatus)
-  .catch(internalServerError)
+    .then(successStatus)
+    .catch(internalServerError);
 }

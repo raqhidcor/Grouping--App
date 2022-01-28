@@ -8,10 +8,10 @@ const timeOffService = axios.create({
 });
 
 /**
- * Crea y envia la solicitud de ausencia/vacaciones al Back
+ * Create and send the holidays request to the backend 
  *
  * @param {{starDate: Date, endDate: Date, summary: string, type: string}} timeOff type from "Holidays", "Illness", "Maternity / Paternity","Other"
- * @returns {{status: boolean,data: Object,errorMessage:string}} response donde data es el objeto que acabamos de crear
+ * @returns {{status: boolean,data: Object,errorMessage:string}} response where data is the object we just created 
  */
 export async function createTimeOff(timeOff) {
   try {
@@ -25,9 +25,9 @@ export async function createTimeOff(timeOff) {
 }
 
 /**
- * localiza la solicitud y pasa a true approved
+ * find the request and updated it to true ---> approved 
  * @param {string} timeOffId
- * @returns {{status: boolean,data: Object,errorMessage:string}} response donde data es el objeto que acabamos de modificar
+ * @returns {{status: boolean,data: Object,errorMessage:string}} response where data is the object we just updated  
  */
 export async function approveTimeOff(timeOffId) {
   try {
@@ -41,9 +41,9 @@ export async function approveTimeOff(timeOffId) {
 }
 
 /**
- * localiza la solicitud y pasa a false approved
+ * find the request and updated it to false ---> denied  la solicitud y pasa a false approved
  * @param {string} timeOffId
- * @returns {{status: boolean,data: Object,errorMessage:string}} response donde data es el objeto que acabamos de modificar
+ * @returns {{status: boolean,data: Object,errorMessage:string}} response where data is the object we just updated 
  */
 export async function denyTimeOff(timeOffId) {
   try {
@@ -57,9 +57,9 @@ export async function denyTimeOff(timeOffId) {
 }
 
 /**
- * localiza la solicitud y la borra
+ * find the request and deleted it 
  * @param {string} timeOffId
- * @returns {{status: boolean,data: Object,errorMessage:string}} response donde data es el objeto que acabamos de modificar
+ * @returns {{status: boolean,data: Object,errorMessage:string}} response where data is the object we just updated 
  */
 export async function deleteTimeOff(timeOffId) {
   try {

@@ -12,7 +12,8 @@ Grouping is a Human Resources Management web application in which employees and 
 * Tasks: Plan, organize, and prioritize your tasks. 
 
 
-Try it yourself! 💻
+## Try it yourself! :computer:
+
 Link: https://app-grouping.herokuapp.com/ 
 
 ## Tools used 🛠️

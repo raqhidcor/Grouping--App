@@ -1,8 +1,6 @@
 # Grouping App 
 
-<div align="center">
 <img src="./client/public/grouping.png" width="80" alt="grouping-icon"> 
-</div>
 
 ---
 

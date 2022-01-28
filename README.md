@@ -1,6 +1,9 @@
-# Grouping App 
+# Grouping App <img src="./client/public/grouping.png" width="80" alt="grouping-icon"> 
 
-<img src="./client/public/grouping.png" width="80" alt="grouping-icon"> 
+
+
+https://user-images.githubusercontent.com/90280742/151606689-5b2bb0c7-0cfa-4f1e-8b80-d541a819889f.mov
+
 
 ---
 

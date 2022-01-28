@@ -35,7 +35,7 @@ Link: https://app-grouping.herokuapp.com/
 
 ## Authors✒️
 * **Tatiana Prada** - [TatianaPrada](https://github.com/TatianaPrada)
-* **Jose Luis Valdes** - [ValdesDev] (https://github.com/ValdesDev) 
+* **Jose Luis Valdes** - [ValdesDev](https://github.com/ValdesDev) 
 * **Raquel Hidalgo** - [raqhidcor](https://github.com/raqhidcor)
 
 <div align='center'> 

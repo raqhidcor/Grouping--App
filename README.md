@@ -8,10 +8,10 @@
 
 Grouping is a Human Resources Management web application in which employees and HR team can have acces to some interesting features to improve the company productivy and daily basis organization:
 
-* Clock-in:** Daily clock in/out and work time table reports.  
-* Time-Off:** Manage time-off and absences quickly and easily (vacations, illness or maternity/paternity). 
-* Employees:** Add employees to your company portal and reach basic information of each team integrant.  
-* Tasks:** Plan, organize, and prioritize your tasks. 
+* Clock-in: Daily clock in/out and work time table reports.  
+* Time-Off: Manage time-off and absences quickly and easily (vacations, illness or maternity/paternity). 
+* Employees: Add employees to your company portal and reach basic information of each team integrant.  
+* Tasks: Plan, organize, and prioritize your tasks. 
 
 
 Try it yourself! 💻
